@@ -1,0 +1,12 @@
+#cards-productos .card-img-top {
+    padding: 25px;
+}
+#cards-productos .card{
+    text-align: center;
+}
+.precio-lista{
+    margin-left: 5px;
+    color: var(--gris-claro);
+    font-size: 0.9em;
+    text-decoration: line-through;
+}

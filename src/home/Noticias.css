@@ -1,0 +1,27 @@
+.why-us {
+    background: url(http://demos.zozotheme.com/innovation2/assets/img/counter-bg.jpg) no-repeat;
+    background-size: cover;
+    padding: 39px 0px;
+}
+.count {
+    font-family: Roboto Slab;
+    font-size: 45px;
+    font-weight: 500;
+    color: var(--color6 );
+    line-height: 45px;
+    margin-bottom: 6px;
+}
+.span2 {
+    color: white;
+    font-size: 16px;
+}
+p{
+    color: #2F2F2F;
+    margin-top: 15px;
+    font-family: var(--e-global-typography-primary-font-family),Sans-serif;
+}
+.p2 {
+    color: #828282;
+    font-family: var(--e-global-typography-primary-font-family),Sans-serif;
+    margin-top: 13px;
+}

@@ -1,24 +1,35 @@
-import logo from './logo.svg';
 import './App.css';
 
-function App() {
+import MainFooter from './common/MainFooter';
+import MainNav from './common/MainNav';
+import Inicio from './pages/Inicio';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+
+import Proveedores from './pages/Proveedores';
+import Empleados from './pages/Empleados';
+import Tienda from './pages/Tienda';
+
+
+function App() {//Comentario JavaScript
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>{/* Comentario */}
+      <BrowserRouter>
+        
+        <MainNav />
+        <main id="main-content">
+
+          <Routes>
+            <Route path="/" element={<Inicio/>} />
+            
+            <Route path="/proveedores" element={<Proveedores/>} />
+            <Route path="/empleados" element={<Empleados/>} />
+            <Route path="/tienda" element={<Tienda/>} />
+          </Routes>
+
+        </main>
+        <MainFooter />
+      </BrowserRouter>
+    </>
   );
 }
 

@@ -1,0 +1,11 @@
+#envios{
+    background-color: var(--color6);
+    color: var(--color-blanco);
+}
+#envios .table{
+    color: var(--color-blanco);
+}
+#envio-titulo{
+    text-transform: none;
+    color: #212529;
+}

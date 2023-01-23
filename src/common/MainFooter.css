@@ -1,0 +1,48 @@
+
+#main-footer{
+    background-color:#8282820a;
+    padding-top:30px;
+    padding: 45px 0;
+}
+
+.footerContainer{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap:30px;
+}
+
+h5{
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #3b3a3a;
+    font-family: Roboto,sans-serif;
+}
+nav{
+    justify-content: start;
+    font-family: Roboto,sans-serif;
+    font-size: 15px;
+}
+.nav-link{
+    color: #9e9a9a;
+    padding-left:0px;
+}
+
+.nav-link:hover{
+    color: #27AE60;
+}
+
+.padded{
+    padding-left:80px;
+    padding-top: 25px;
+}
+.logoContainer{
+    padding: 20px 0px ;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+.redes-icon{
+    padding: 4px;
+}

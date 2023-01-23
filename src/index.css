@@ -1,13 +1,65 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    font-family: var( --e-global-typography-primary-font-family ),Sans-serif;
+    font-family: var( --e-global-typography-text-font-family ),Sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root {
+    --e-global-typography-primary-font-family: "Poppins";
+    --e-global-typography-text-font-family: "Roboto";
+    --color1: #2B2E5B;
+    --color2: #274073;
+    --color3: #EECC37;
+    --color4: #F28A2E;
+    --color5: #F24E29;
+    --color6: #8BB867;
+    --color-blanco: #FFFFFF;
+    --color-negro: #000000;
+    --gris-claro: #CCCCCC;
+    --gris-oscuro: #333333;
+}
+
+h1 {
+    font-weight: 700;
+    /* Grosor o estilo de la fuente */
+    font-size: 32px;
+    letter-spacing: -1px;
+    /* Espaciado entre letras */
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 25.3px;
+    font-family: var(--e-global-typography-primary-font-family);
+    letter-spacing: -1px;
+    /* Para que se muestren los textos en minúscula */
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+    /* Para que se muestren los textos en mayúscula */
+}
+
+.padded {
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+.list-group-item.active {
+    background-color: var(--color6);
+    border-color: var(--color6);
+}
+.card{
+    height: 100%!important;
+}
+.sin-oferta{
+    display: none;
+}
+.con-oferta{
+    background-color: var(--color5);
+    color: var(--color-blanco);
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 5px 10px;
 }

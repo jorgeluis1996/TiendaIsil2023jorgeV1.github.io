@@ -1,0 +1,7 @@
+#main-header{
+    background-color: var(--color3);
+}
+#main-header h1,
+#main-header p{
+    margin-bottom: 0;
+}
